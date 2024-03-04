@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="14" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-04T14:55:18 IST" name="Suite" finished-at="2024-03-04T14:56:28 IST" duration-ms="70522">
+    <groups>
+    </groups>
+    <test started-at="2024-03-04T14:55:18 IST" name="Test" finished-at="2024-03-04T14:56:28 IST" duration-ms="70522">
+      <class name="com.testattendancetracking.AttendanceReportsValidationTest">
+        <test-method signature="testNavigationToAttendancReporttab()[pri:0, instance:com.testattendancetracking.AttendanceReportsValidationTest@2b30a42c]" started-at="2024-03-04T14:55:52 IST" name="testNavigationToAttendancReporttab" finished-at="2024-03-04T14:55:53 IST" duration-ms="1036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigationToAttendancReporttab -->
+        <test-method signature="testToShowUserAttendanceReport()[pri:0, instance:com.testattendancetracking.AttendanceReportsValidationTest@2b30a42c]" started-at="2024-03-04T14:55:53 IST" name="testToShowUserAttendanceReport" finished-at="2024-03-04T14:56:01 IST" duration-ms="8197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToShowUserAttendanceReport -->
+        <test-method signature="testToVerifyUserAttendanceInReports()[pri:0, instance:com.testattendancetracking.AttendanceReportsValidationTest@2b30a42c]" started-at="2024-03-04T14:56:01 IST" name="testToVerifyUserAttendanceInReports" finished-at="2024-03-04T14:56:15 IST" duration-ms="13712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToVerifyUserAttendanceInReports -->
+        <test-method signature="testToVerifyUserNameInReports()[pri:0, instance:com.testattendancetracking.AttendanceReportsValidationTest@2b30a42c]" started-at="2024-03-04T14:56:15 IST" name="testToVerifyUserNameInReports" finished-at="2024-03-04T14:56:28 IST" duration-ms="13556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToVerifyUserNameInReports -->
+      </class> <!-- com.testattendancetracking.AttendanceReportsValidationTest -->
+      <class name="com.testattendancetracking.ViewAttendanceHistoryTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.testattendancetracking.ViewAttendanceHistoryTest@6be968ce]" started-at="2024-03-04T14:55:13 IST" name="launchBrowser" finished-at="2024-03-04T14:55:18 IST" duration-ms="4930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="TestDatePicker()[pri:0, instance:com.testattendancetracking.ViewAttendanceHistoryTest@6be968ce]" started-at="2024-03-04T14:55:18 IST" name="TestDatePicker" finished-at="2024-03-04T14:55:21 IST" duration-ms="3511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestDatePicker -->
+        <test-method signature="testEnablingViewButtonWithValidDate()[pri:0, instance:com.testattendancetracking.ViewAttendanceHistoryTest@6be968ce]" started-at="2024-03-04T14:55:21 IST" name="testEnablingViewButtonWithValidDate" finished-at="2024-03-04T14:55:28 IST" duration-ms="6361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEnablingViewButtonWithValidDate -->
+        <test-method signature="testErrorOnViewWithoutDate()[pri:0, instance:com.testattendancetracking.ViewAttendanceHistoryTest@6be968ce]" started-at="2024-03-04T14:55:28 IST" name="testErrorOnViewWithoutDate" finished-at="2024-03-04T14:55:29 IST" duration-ms="1425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testErrorOnViewWithoutDate -->
+        <test-method signature="testInvalidDateDisablesViewButton()[pri:0, instance:com.testattendancetracking.ViewAttendanceHistoryTest@6be968ce]" started-at="2024-03-04T14:55:29 IST" name="testInvalidDateDisablesViewButton" finished-at="2024-03-04T14:55:31 IST" duration-ms="1297" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[View button is enabled for an invalid date]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: View button is enabled for an invalid date
+at com.testattendancetracking.ViewAttendanceHistoryTest.testInvalidDateDisablesViewButton(ViewAttendanceHistoryTest.java:197)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidDateDisablesViewButton -->
+        <test-method signature="testNavigationToMyRecords()[pri:0, instance:com.testattendancetracking.ViewAttendanceHistoryTest@6be968ce]" started-at="2024-03-04T14:55:31 IST" name="testNavigationToMyRecords" finished-at="2024-03-04T14:55:32 IST" duration-ms="1005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigationToMyRecords -->
+        <test-method signature="testPresenceOfDatePicker()[pri:0, instance:com.testattendancetracking.ViewAttendanceHistoryTest@6be968ce]" started-at="2024-03-04T14:55:32 IST" name="testPresenceOfDatePicker" finished-at="2024-03-04T14:55:33 IST" duration-ms="1085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPresenceOfDatePicker -->
+        <test-method signature="testPresenceOfMyRecordsOption()[pri:0, instance:com.testattendancetracking.ViewAttendanceHistoryTest@6be968ce]" started-at="2024-03-04T14:55:33 IST" name="testPresenceOfMyRecordsOption" finished-at="2024-03-04T14:55:34 IST" duration-ms="1031" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPresenceOfMyRecordsOption -->
+        <test-method signature="testToShowUsersAttendanceHistory()[pri:0, instance:com.testattendancetracking.ViewAttendanceHistoryTest@6be968ce]" started-at="2024-03-04T14:55:34 IST" name="testToShowUsersAttendanceHistory" finished-at="2024-03-04T14:55:44 IST" duration-ms="9872" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToShowUsersAttendanceHistory -->
+        <test-method signature="testToVerifyUserAttendanceHistory()[pri:0, instance:com.testattendancetracking.ViewAttendanceHistoryTest@6be968ce]" started-at="2024-03-04T14:55:44 IST" name="testToVerifyUserAttendanceHistory" finished-at="2024-03-04T14:55:49 IST" duration-ms="5890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToVerifyUserAttendanceHistory -->
+        <test-method signature="testViewButtonInitiallyEnabled()[pri:0, instance:com.testattendancetracking.ViewAttendanceHistoryTest@6be968ce]" started-at="2024-03-04T14:55:49 IST" name="testViewButtonInitiallyEnabled" finished-at="2024-03-04T14:55:50 IST" duration-ms="1053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testViewButtonInitiallyEnabled -->
+        <test-method signature="testViewWithValidDateDisplaysRecords()[pri:0, instance:com.testattendancetracking.ViewAttendanceHistoryTest@6be968ce]" started-at="2024-03-04T14:55:50 IST" name="testViewWithValidDateDisplaysRecords" finished-at="2024-03-04T14:55:52 IST" duration-ms="1406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testViewWithValidDateDisplaysRecords -->
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:com.testattendancetracking.ViewAttendanceHistoryTest@6be968ce]" started-at="2024-03-04T14:56:28 IST" name="closingBrowser" finished-at="2024-03-04T14:56:29 IST" duration-ms="201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingBrowser -->
+      </class> <!-- com.testattendancetracking.ViewAttendanceHistoryTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
