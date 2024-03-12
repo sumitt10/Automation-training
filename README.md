@@ -53,8 +53,11 @@ Welcome to the Automation Training Repository! This repository serves as a compr
 
 ## Projects & Tasks
 
+### Admin Module
+- Automated test cases for admin module in OrangeHRM.
+  
 ### Attendance Tracking
-- Automated test cases for tracking attendance using OrangeHRM.
+- Automated test cases for tracking attendance in OrangeHRM.
 
 ### Database Utility
 
@@ -65,7 +68,7 @@ Welcome to the Automation Training Repository! This repository serves as a compr
 - Reading test data from Excel files and driving automated tests.
 
 ### OrangeHRMTest Automation
-- Scripts to automate the OrangeHRM Demo site (Admin Module).
+- Scripts to automate the OrangeHRM Demo site.
 
 
 ### Elemental Control Suite
