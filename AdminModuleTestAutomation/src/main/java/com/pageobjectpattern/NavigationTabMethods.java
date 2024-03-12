@@ -3,12 +3,7 @@ package com.pageobjectpattern;
 import com.commonutils.TestUtilsMethod;
 
 public class NavigationTabMethods extends TestUtilsMethod {
-
-	public static void navigationToAttendanceReporttab() {
-		driver.get(config.getProperty("app.attendance_report_url"));
-
-	}
-
+	
 	public static void navigationToAddUserPage() {
 		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers");
 
