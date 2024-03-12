@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.orangehrm.assertionmethod.GetDataAndCompareTest">
+        <methods>
+          <include name="getDataAndCompare"/>
+          <include name="closingBrowser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- com.orangehrm.assertionmethod.GetDataAndCompareTest -->
+      <class name="com.orangehrm.qualifications.AddLanguageAutomateTest">
+        <methods>
+          <include name="closingBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="addLanguage"/>
+        </methods>
+      </class> <!-- com.orangehrm.qualifications.AddLanguageAutomateTest -->
+      <class name="com.orangehrm.qualifications.AddEducationAutomateTest">
+        <methods>
+          <include name="addEducation"/>
+          <include name="closingBrowser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- com.orangehrm.qualifications.AddEducationAutomateTest -->
+      <class name="com.orangehrm.configuration.AddProviderAutomateTest">
+        <methods>
+          <include name="closingBrowser"/>
+          <include name="addProvider"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- com.orangehrm.configuration.AddProviderAutomateTest -->
+      <class name="com.orangehrm.job.AddEmploymentStatusAutomateTest">
+        <methods>
+          <include name="addEmploymentStatus"/>
+          <include name="closingBrowser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- com.orangehrm.job.AddEmploymentStatusAutomateTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
