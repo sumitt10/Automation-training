@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-15T14:52:11 IST" name="Suite" finished-at="2024-03-15T14:53:02 IST" duration-ms="51310">
+    <groups>
+    </groups>
+    <test started-at="2024-03-15T14:52:11 IST" name="Test" finished-at="2024-03-15T14:53:02 IST" duration-ms="51310">
+      <class name="com.orangehrm.leavemodule.LeaveManageAutomateTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.orangehrm.leavemodule.LeaveManageAutomateTest@1750fbeb]" started-at="2024-03-15T14:51:44 IST" name="launchBrowser" finished-at="2024-03-15T14:52:11 IST" duration-ms="26978" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="assignleavetest()[pri:0, instance:com.orangehrm.leavemodule.LeaveManageAutomateTest@1750fbeb]" started-at="2024-03-15T14:52:11 IST" name="assignleavetest" finished-at="2024-03-15T14:52:26 IST" duration-ms="14950" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assignleavetest -->
+        <test-method signature="leaveUsageReport()[pri:0, instance:com.orangehrm.leavemodule.LeaveManageAutomateTest@1750fbeb]" started-at="2024-03-15T14:52:26 IST" name="leaveUsageReport" finished-at="2024-03-15T14:52:34 IST" duration-ms="8903" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- leaveUsageReport -->
+        <test-method signature="leavelisttest()[pri:0, instance:com.orangehrm.leavemodule.LeaveManageAutomateTest@1750fbeb]" started-at="2024-03-15T14:52:34 IST" name="leavelisttest" finished-at="2024-03-15T14:52:47 IST" duration-ms="12366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- leavelisttest -->
+        <test-method signature="myLeaveUsageReport()[pri:0, instance:com.orangehrm.leavemodule.LeaveManageAutomateTest@1750fbeb]" started-at="2024-03-15T14:52:47 IST" name="myLeaveUsageReport" finished-at="2024-03-15T14:52:53 IST" duration-ms="6580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myLeaveUsageReport -->
+        <test-method signature="myLeavetest()[pri:0, instance:com.orangehrm.leavemodule.LeaveManageAutomateTest@1750fbeb]" started-at="2024-03-15T14:52:53 IST" name="myLeavetest" finished-at="2024-03-15T14:53:02 IST" duration-ms="8363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myLeavetest -->
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:com.orangehrm.leavemodule.LeaveManageAutomateTest@1750fbeb]" started-at="2024-03-15T14:53:02 IST" name="closingBrowser" finished-at="2024-03-15T14:53:02 IST" duration-ms="237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingBrowser -->
+      </class> <!-- com.orangehrm.leavemodule.LeaveManageAutomateTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
