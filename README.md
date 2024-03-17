@@ -52,12 +52,15 @@ Welcome to the Automation Training Repository! This repository serves as a compr
    - Capturing snapshots and logs for diagnostic purposes.
 
 ## Projects & Tasks
-
-### Admin Module
-- Automated test cases for admin module in OrangeHRM.
   
 ### Attendance Tracking
 - Automated test cases for tracking attendance in OrangeHRM.
+
+### Leave Management
+- Automated test cases for Leave Management in OrangeHRM.
+
+### Memberships Functionality
+- Automated test cases for Memberships Functionality in OrangeHRM.
 
 ### Database Utility
 
