@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\LENOVO\eclipse-workspace\AdminModuleTestAutomation\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">14 methods,   14 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.orangehrm.admin.AdminModuleAutomateTest" class="method navigator-link" hash-for-method="testLanguagenameAssertion">testLanguagenameAssertion</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.orangehrm.admin.AdminModuleAutomateTest" class="method navigator-link" hash-for-method="testToAddEducation">testToAddEducation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.orangehrm.admin.AdminModuleAutomateTest" class="method navigator-link" hash-for-method="testToAddEmailConfiguration">testToAddEmailConfiguration</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.orangehrm.admin.AdminModuleAutomateTest" class="method navigator-link" hash-for-method="testToAddJobCategory">testToAddJobCategory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.orangehrm.admin.AdminModuleAutomateTest" class="method navigator-link" hash-for-method="testToAddJobTitle">testToAddJobTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.orangehrm.admin.AdminModuleAutomateTest" class="method navigator-link" hash-for-method="testToAddLanguage">testToAddLanguage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.orangehrm.admin.AdminModuleAutomateTest" class="method navigator-link" hash-for-method="testToAddLicense">testToAddLicense</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.orangehrm.admin.AdminModuleAutomateTest" class="method navigator-link" hash-for-method="testToAddLocation">testToAddLocation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.orangehrm.admin.AdminModuleAutomateTest" class="method navigator-link" hash-for-method="testToAddNationalities">testToAddNationalities</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.orangehrm.admin.AdminModuleAutomateTest" class="method navigator-link" hash-for-method="testToAddPayGrade">testToAddPayGrade</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.orangehrm.admin.AdminModuleAutomateTest" class="method navigator-link" hash-for-method="testToAddProvider">testToAddProvider</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.orangehrm.admin.AdminModuleAutomateTest" class="method navigator-link" hash-for-method="testToAddSkill">testToAddSkill</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.orangehrm.admin.AdminModuleAutomateTest" class="method navigator-link" hash-for-method="testToAddUser">testToAddUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.orangehrm.admin.AdminModuleAutomateTest" class="method navigator-link" hash-for-method="testToEmploymentStatus">testToEmploymentStatus</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.orangehrm.admin.AdminModuleAutomateTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLanguagenameAssertion">
+                  </a> <!-- testLanguagenameAssertion -->
+                  <span class="method-name">testLanguagenameAssertion</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testToAddEducation">
+                  </a> <!-- testToAddEducation -->
+                  <span class="method-name">testToAddEducation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testToAddEmailConfiguration">
+                  </a> <!-- testToAddEmailConfiguration -->
+                  <span class="method-name">testToAddEmailConfiguration</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testToAddJobCategory">
+                  </a> <!-- testToAddJobCategory -->
+                  <span class="method-name">testToAddJobCategory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testToAddJobTitle">
+                  </a> <!-- testToAddJobTitle -->
+                  <span class="method-name">testToAddJobTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testToAddLanguage">
+                  </a> <!-- testToAddLanguage -->
+                  <span class="method-name">testToAddLanguage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testToAddLicense">
+                  </a> <!-- testToAddLicense -->
+                  <span class="method-name">testToAddLicense</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testToAddLocation">
+                  </a> <!-- testToAddLocation -->
+                  <span class="method-name">testToAddLocation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testToAddNationalities">
+                  </a> <!-- testToAddNationalities -->
+                  <span class="method-name">testToAddNationalities</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testToAddPayGrade">
+                  </a> <!-- testToAddPayGrade -->
+                  <span class="method-name">testToAddPayGrade</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testToAddProvider">
+                  </a> <!-- testToAddProvider -->
+                  <span class="method-name">testToAddProvider</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testToAddSkill">
+                  </a> <!-- testToAddSkill -->
+                  <span class="method-name">testToAddSkill</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testToAddUser">
+                  </a> <!-- testToAddUser -->
+                  <span class="method-name">testToAddUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testToEmploymentStatus">
+                  </a> <!-- testToEmploymentStatus -->
+                  <span class="method-name">testToEmploymentStatus</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\LENOVO\eclipse-workspace\AdminModuleTestAutomation\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.commonutils.Listeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.orangehrm.admin.AdminModuleAutomateTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(14);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testToAddUser')
+data.setCell(0, 2, 'com.orangehrm.admin.AdminModuleAutomateTest')
+data.setCell(0, 3, 12422);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testToAddLocation')
+data.setCell(1, 2, 'com.orangehrm.admin.AdminModuleAutomateTest')
+data.setCell(1, 3, 8387);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testToAddNationalities')
+data.setCell(2, 2, 'com.orangehrm.admin.AdminModuleAutomateTest')
+data.setCell(2, 3, 6134);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testToAddProvider')
+data.setCell(3, 2, 'com.orangehrm.admin.AdminModuleAutomateTest')
+data.setCell(3, 3, 5954);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testLanguagenameAssertion')
+data.setCell(4, 2, 'com.orangehrm.admin.AdminModuleAutomateTest')
+data.setCell(4, 3, 5929);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testToAddLicense')
+data.setCell(5, 2, 'com.orangehrm.admin.AdminModuleAutomateTest')
+data.setCell(5, 3, 5906);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testToAddPayGrade')
+data.setCell(6, 2, 'com.orangehrm.admin.AdminModuleAutomateTest')
+data.setCell(6, 3, 5850);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testToAddSkill')
+data.setCell(7, 2, 'com.orangehrm.admin.AdminModuleAutomateTest')
+data.setCell(7, 3, 5746);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testToAddJobCategory')
+data.setCell(8, 2, 'com.orangehrm.admin.AdminModuleAutomateTest')
+data.setCell(8, 3, 5711);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testToAddJobTitle')
+data.setCell(9, 2, 'com.orangehrm.admin.AdminModuleAutomateTest')
+data.setCell(9, 3, 5686);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testToAddEducation')
+data.setCell(10, 2, 'com.orangehrm.admin.AdminModuleAutomateTest')
+data.setCell(10, 3, 5681);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testToAddLanguage')
+data.setCell(11, 2, 'com.orangehrm.admin.AdminModuleAutomateTest')
+data.setCell(11, 3, 5658);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testToEmploymentStatus')
+data.setCell(12, 2, 'com.orangehrm.admin.AdminModuleAutomateTest')
+data.setCell(12, 3, 5572);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testToAddEmailConfiguration')
+data.setCell(13, 2, 'com.orangehrm.admin.AdminModuleAutomateTest')
+data.setCell(13, 3, 4329);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.orangehrm.admin.AdminModuleAutomateTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">testLanguagenameAssertion</span>
+                <span class="method-start">18571 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testToAddEducation</span>
+                <span class="method-start">24503 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testToAddEmailConfiguration</span>
+                <span class="method-start">30189 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testToAddJobCategory</span>
+                <span class="method-start">34522 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testToAddJobTitle</span>
+                <span class="method-start">40237 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testToAddLanguage</span>
+                <span class="method-start">45925 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testToAddLicense</span>
+                <span class="method-start">51587 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testToAddLocation</span>
+                <span class="method-start">57497 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testToAddNationalities</span>
+                <span class="method-start">65888 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testToAddPayGrade</span>
+                <span class="method-start">72026 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testToAddProvider</span>
+                <span class="method-start">77880 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testToAddSkill</span>
+                <span class="method-start">83838 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testToAddUser</span>
+                <span class="method-start">89588 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testToEmploymentStatus</span>
+                <span class="method-start">102013 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-suite after">
+                <span class="method-name">closingBrowser</span>
+                <span class="method-start">107639 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
