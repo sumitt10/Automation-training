@@ -73,7 +73,12 @@ Welcome to the Automation Training Repository! This repository serves as a compr
 ### OrangeHRMTest Automation
 - Scripts to automate the OrangeHRM Demo site.
 
+### CrossBrowser Testing Framework
+- Cross Browser Test : Login Test on chrome and edge browser using testng
 
+### FNPCakesAutomationSuite
+- fnp cakes : automation suite for adding cake to cart on fnp site | fetching data from excel like delivery location, date etc.
+  
 ### Elemental Control Suite
 
 - Suite of utility methods for performing actions on web elements.
